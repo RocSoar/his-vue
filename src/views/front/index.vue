@@ -1,9 +1,11 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
-  <router-view/>
+  <div>index</div>
 </template>
 
 <style scoped>
+
 </style>
