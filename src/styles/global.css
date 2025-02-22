@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: inherit;
+}
+
+* {
+    font-family: Menlo, "微软雅黑", "Helvetica Neue", Georgia, serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#app {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: inherit;
+}
