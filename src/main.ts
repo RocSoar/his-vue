@@ -8,6 +8,7 @@ import 'virtual:svg-icons-register'
 import $ from 'jquery'
 import {ElMessage} from "element-plus";
 import './styles/global.css'
+import 'element-plus/dist/index.css';
 
 const app = createApp(App)
 
@@ -18,8 +19,8 @@ for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
     app.component(key, component)
 }
 
-const baseUrl = 'http://localhost:7700/his-api'
-const minioUrl = 'http://localhost:9000/his'
+const baseUrl = 'https://localhost:7700/his-api'
+const minioUrl = 'http://192.168.3.18:9000/his'
 
 app.config.globalProperties.$baseUrl = baseUrl
 app.config.globalProperties.$minioUrl = minioUrl

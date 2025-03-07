@@ -1,0 +1,106 @@
+@import url('../../styles/colors.less');
+
+.mold {
+  float: right;
+  //el-form-item自带右外填充，所以我们要把外填充去掉
+  margin-right: 0 !important;
+}
+
+.link-blue {
+  color: @fc-27;
+  cursor: pointer;
+  padding: 5px 0;
+  //鼠标悬停，字体颜色变成浅蓝色
+  &:hover {
+    color: @fc-28;
+  }
+}
+
+.link-red {
+  color: @fc-30;
+  cursor: pointer;
+  padding: 5px 0;
+  //鼠标悬停，字体颜色变成浅红色
+  &:hover {
+    color: @fc-31;
+  }
+}
+
+.image-uploader {
+  width: 90px;
+  height: 90px;
+  border: 1px dashed var(--el-border-color);
+  border-radius: 6px;
+  cursor: pointer;
+  //如果图片不是正方形，缩放之后溢出部分被截掉
+  overflow: hidden;
+}
+
+.el-icon.image-uploader-icon {
+  font-size: 28px;
+  color: #8c939d;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+}
+
+.image {
+  width: 90px;
+  height: 90px;
+}
+
+.price {
+  width: 200px;
+}
+
+.desc {
+  margin-left: 20px;
+  font-size: 14px;
+  color: @fc-3;
+}
+
+.tag-row {
+  width: 100%;
+
+  .tag-input {
+    width: 50%;
+  }
+}
+
+.tags {
+  margin-top: 5px;
+}
+
+.item-row {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.message-content {
+  display: flex;
+
+  .icon {
+    color: @bgc-17;
+    margin-top: 3px;
+  }
+
+  p {
+    margin: 0 10px 5px 10px;
+    line-height: 1.7;
+  }
+}
+
+.document-dialog-footer {
+  display: flex;
+  justify-content: right;
+
+  .uploadBtn {
+    margin-right: 10px;
+  }
+
+  .downloadBtn {
+  }
+}
+
+
+
